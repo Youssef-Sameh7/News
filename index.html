@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Daily News - Your daily source for the latest news"
+  >
+
+  <title>Daily News</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="container header-content">
+
+      <div class="logo">
+        <div class="logo-icon">D</div>
+
+        <div>
+          <h1>Daily News</h1>
+          <p>Your daily source for the latest news</p>
+        </div>
+      </div>
+
+      <div class="date">
+        September 10, 2026
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <nav class="navbar">
+
+    <div class="container nav-container">
+
+      <button class="nav-btn active" onclick="filterNews('All')">
+        All
+      </button>
+
+      <button class="nav-btn" onclick="filterNews('Politics')">
+        Politics
+      </button>
+
+      <button class="nav-btn" onclick="filterNews('Economy')">
+        Economy
+      </button>
+
+      <button class="nav-btn" onclick="filterNews('Sports')">
+        Sports
+      </button>
+
+      <button class="nav-btn" onclick="filterNews('Movies')">
+        Movies
+      </button>
+
+      <button class="nav-btn" onclick="filterNews('Technology')">
+        Technology
+      </button>
+
+      <button class="nav-btn" onclick="filterNews('World')">
+        World
+      </button>
+
+      <button class="nav-btn" onclick="filterNews('Health')">
+        Health
+      </button>
+
+      <button class="nav-btn" onclick="filterNews('Entertainment')">
+        Entertainment
+      </button>
+
+    </div>
+
+  </nav>
+
+
+  <section class="breaking">
+
+    <div class="container breaking-content">
+
+      <span class="breaking-label">
+        🔴 BREAKING
+      </span>
+
+      <span>
+        Stay updated with the latest breaking news from around the world.
+      </span>
+
+    </div>
+
+  </section>
+
+
+  <main>
+
+    <section class="hero container">
+
+      <div class="hero-content">
+
+        <span class="featured-label">
+          FEATURED STORY
+        </span>
+
+        <h2>
+          Global Leaders Meet to Discuss Major International Challenges
+        </h2>
+
+        <p>
+          World leaders gather today to discuss important political,
+          economic and social developments affecting countries around
+          the globe.
+        </p>
+
+        <button class="read-button">
+          Read Full Story →
+        </button>
+
+      </div>
+
+      <div class="hero-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1200&q=80"
+          alt="Global political meeting"
+        >
+
+      </div>
+
+    </section>
+
+
+    <section class="news-section container">
+
+      <div class="section-title">
+
+        <div>
+          <span>DAILY NEWS</span>
+          <h2 id="sectionTitle">Latest News</h2>
+        </div>
+
+        <p id="newsCount">
+          9 Articles
+        </p>
+
+      </div>
+
+
+      <div class="news-grid" id="newsGrid">
+
+      </div>
+
+    </section>
+
+
+    <section class="about container">
+
+      <span>ABOUT DAILY NEWS</span>
+
+      <h2>
+        News That Matters. Every Day.
+      </h2>
+
+      <p>
+        Daily News brings together the latest stories from politics,
+        business, sports, technology, entertainment and more.
+        Our goal is to keep you informed with a clean and modern
+        news experience.
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <div>
+        <h2>Daily News</h2>
+
+        <p>
+          Your daily source for the latest news.
+        </p>
+      </div>
+
+      <div class="footer-links">
+
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      © 2026 Daily News. All Rights Reserved.
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
